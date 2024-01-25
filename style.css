@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbkg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(51, 51, 51, 0.75)),url(images/yared.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#logoy {
+    width: 100px;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+#im1{
+    max-width: 200px;
+    cursor: pointer;
+}
+.toplist ul li{
+    display: block;
+    margin: 0 8px;
+    position: relative;
+
+}
+.toplist ul li a{
+    text-decoration: none;
+    font-family: calibri;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 11px;
+}
+#im2{
+    max-width: 150px;
+    cursor: pointer;
+}
+.content{
+    display: block;
+    max-width: 100%;
+    top: 5%;
+    transform: translateY(40%);
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+#im2{
+    max-width: 150px;
+    cursor: pointer;
+}
+.content h1{
+    font-family: calibri;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px auto;
+}
+.content p{
+    font-family: calibri;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 15px;
+}
+#rt
+{
+    font-family: calibri;
+    color: aliceblue;
+    font-size: 12px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #5d8aa8;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #5d8aa8;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.ABOUT{
+    width: min(70%, 70.5rem);
+    text-align: center;
+    margin-inline: auto;
+    transform: translateY(30%);
+    padding: 5px;
+    font-family: calibri;
+    font-size:15px;
+    color: #fff;
+}
+.UPD{
+    width: min(70%, 70.5rem);
+    text-align: center;
+    margin: auto;
+    transform: translateY(95%);
+    padding: 5px;
+    font-family: calibri;
+    font-size:0.8rem;
+    color: #fff;
+}
+.wrapper{
+    justify-content: space-between;
+    margin-inline: auto;
+    padding: 10px;
+    transform: translateY(20%);
+    font-family: calibri;
+    font-size: 15px;
+    color: #fff;
+    width: min(81%, 7070.5rem);
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.SERVICES{
+    color: #fff;
+}
